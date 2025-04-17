@@ -1,41 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# YouTube Homepage Clone 🎥
 
-## Getting Started
+This project is a responsive and interactive clone of the YouTube homepage built using React.  
+It displays a grid of video cards, each with image thumbnails, channel details, views, and timestamps — just like the real YouTube experience.
 
-First, run the development server:
+## 🛠 Technologies Used
+- React (JSX components)
+- CSS3 (Flexbox & Grid)
+- JavaScript (ES6+)
+- date-fns (for relative time display)
+- Lucide icons (vertical menu)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Features
+- 2-row, 4-column video grid layout
+- Video thumbnail with hover effect (switches image)
+- Title, channel name, view count, and time posted
+- Profile picture next to channel
+- Vertical 3-dot icon (Lucide)
+- Props drilling to pass data between components
+- Hover effects for channel name & thumbnail
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Component Breakdown
+- `VideoCard`: displays a single video
+- `VideoGrid`: maps through all video props
+- `TimeUtils`: date-fns for calculating time differences
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🧪 How to Run
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm run dev` or `npm start`
+4. Visit `http://localhost:3000` in your browser
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📌 Status
+✅ Completed (UI only, no API/backend)  
+📅 Last updated: April 2025
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-# youtube-ui-clone
+Made with 💻 by [Tsetsen](https://github.com/tsetse0725)
